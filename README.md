@@ -2,7 +2,7 @@
 
 A text-driven place recommendation system based on TripAdvisor review similarity
 
-## 📋 Project Overview
+## Project Overview
 
 This project builds a text-driven recommendation system that analyzes TripAdvisor review text to recommend similar tourist destinations.
 
@@ -15,7 +15,7 @@ This project builds a text-driven recommendation system that analyzes TripAdviso
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 - **Reviews**: 340,385 reviews
 - **Places**: 2,161 unique places
@@ -35,7 +35,7 @@ restaurantType.csv
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Environment Setup
 
@@ -83,7 +83,7 @@ python 7_compare_models.py
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 .
@@ -104,7 +104,7 @@ python 7_compare_models.py
 
 ---
 
-## 🔧 Data Processing Pipeline
+## Data Processing Pipeline
 
 ### 1. Text Preprocessing
 - Lowercase conversion
@@ -116,7 +116,7 @@ python 7_compare_models.py
 ### 2. Document Aggregation
 - Concatenate all reviews per place into a single document
 
-### 3. TF-IDF Balancing ⭐ (Key Step)
+### 3. TF-IDF Balancing  (Key Step)
 - Use TF-IDF to select top 100 keywords per place
 - Solve review quantity imbalance problem (1 ~ 71,257 reviews/place)
 - Ensure fair comparison
@@ -127,7 +127,7 @@ python 7_compare_models.py
 
 ---
 
-## 🤖 Models
+## Models
 
 ### BM25 (Baseline)
 - **Principle**: Probabilistic ranking function
@@ -144,7 +144,7 @@ python 7_compare_models.py
 
 ---
 
-## 📈 Evaluation Results
+## Evaluation Results
 
 ### Level 1 (Type Matching: H/R/A/AP)
 
@@ -164,7 +164,7 @@ python 7_compare_models.py
 
 ---
 
-## 📦 Dependencies
+## Dependencies
 
 ```txt
 pandas>=1.5.0
@@ -179,7 +179,7 @@ seaborn>=0.12.0
 
 ---
 
-## 💡 Key Technical Points
+## Key Technical Points
 
 1. **TF-IDF Balancing Strategy** (Following instructor's recommendation)
    - Select top 100 keywords per place
@@ -196,16 +196,16 @@ seaborn>=0.12.0
 
 ---
 
-## 🎯 Main Achievements
+## Main Achievements
 
-1. ✅ Implemented and compared two recommendation models
-2. ✅ Achieved 85%+ recommendation accuracy
-3. ✅ Validated the effectiveness of text similarity recommendation
-4. ✅ TF-IDF+Cosine model outperforms BM25 baseline
+1. Implemented and compared two recommendation models
+2. Achieved 85%+ recommendation accuracy
+3. Validated the effectiveness of text similarity recommendation
+4. TF-IDF+Cosine model outperforms BM25 baseline
 
 ---
 
-## 📝 Reports
+## Reports
 
 Complete project reports are in the `reports/` directory:
 - `TripAdvisor_Report_Chinese.docx`
@@ -219,7 +219,7 @@ Reports include:
 
 ---
 
-## ⚠️ Important Notes
+## Important Notes
 
 1. **Data Files**: Ensure all CSV files are in the same directory
 2. **Memory**: Preprocessing may require 2-4 GB RAM
@@ -228,7 +228,7 @@ Reports include:
 
 ---
 
-## 🔍 FAQ
+## FAQ
 
 **Q: How to test with partial data?**
 ```python
@@ -248,16 +248,3 @@ TOP_N_WORDS = 100  # Change to 50, 150, 200, etc.
 USE_ENGLISH_ONLY = True
 ```
 
----
-
-## 📧 Contact
-
-- Project Author: [Your Name]
-- Course: Information Retrieval
-- Date: March 2026
-
----
-
-## 📄 License
-
-This project is for academic research and coursework only
