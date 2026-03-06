@@ -1,0 +1,20 @@
+TripAdvisor Data Preprocessing Summary
+------------------------------------------------------------
+
+1.PROCESSED REVIEWS
+Total reviews processed:340,385
+Average words per review:36.29
+Min words:1
+Max words:1189
+
+2.AGGREGATED DOCUMENTS
+Total unique places:2,161
+Average document length:5715.85words
+Average reviews per place:157.51
+Min reviews per place:1
+Max reviews per place:71257
+
+3.OUTPUT FILES
+reviews_preprocessed.csv:All reviews with cleaned text
+documents_by_place.csv:Aggregated documents(one per place)
+preprocessing_summary.txt:This file

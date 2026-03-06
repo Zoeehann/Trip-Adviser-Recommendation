@@ -1,0 +1,38 @@
+{
+  "BM25": {
+    "level1": {
+      "mean_ranking_error": 0.4351851851851852,
+      "median_ranking_error": 0.0,
+      "success_at_1": 0.850925925925926,
+      "success_at_5": 0.9814814814814815,
+      "success_at_10": 0.9898148148148148,
+      "valid_queries": 1080
+    },
+    "level2": {
+      "mean_ranking_error": 0.7260018639328985,
+      "median_ranking_error": 0.0,
+      "success_at_1": 0.8108108108108109,
+      "success_at_5": 0.961789375582479,
+      "success_at_10": 0.9794967381174278,
+      "valid_queries": 1073
+    }
+  },
+  "TF-IDF+Cosine": {
+    "level1": {
+      "mean_ranking_error": 0.3996299722479186,
+      "median_ranking_error": 0.0,
+      "success_at_1": 0.8566142460684552,
+      "success_at_5": 0.9796484736355227,
+      "success_at_10": 0.9925994449583718,
+      "valid_queries": 1081
+    },
+    "level2": {
+      "mean_ranking_error": 0.6943150046598322,
+      "median_ranking_error": 0.0,
+      "success_at_1": 0.8266542404473439,
+      "success_at_5": 0.9655172413793104,
+      "success_at_10": 0.983224603914259,
+      "valid_queries": 1073
+    }
+  }
+}
